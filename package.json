@@ -1,8 +1,8 @@
 {
-  "name": "react-full-year-scheduler",
+  "name": "react-full-year-scheduler-single-file",
   "description": "React Year Scheduler is a customizable and easy-to-use React component that allows you to display a year calendar with events, and enable users to select and interact with them. ",
   "private": false,
-  "version": "1.0.12",
+  "version": "1.0.13",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sadiki-o/react-full-year-scheduler"
@@ -65,7 +65,6 @@
     "vite": "^4.0.0",
     "vite-plugin-dts": "^2.2.0",
     "vite-plugin-linter": "^2.0.2",
-    "vite-plugin-singlefile": "^0.13.5",
     "vite-tsconfig-paths": "^4.0.8",
     "vitest": "^0.30.1"
   },
