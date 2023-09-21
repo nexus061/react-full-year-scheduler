@@ -5,10 +5,11 @@ import dts from 'vite-plugin-dts'
 import tailwindcss from 'tailwindcss'
 import { UserConfigExport } from 'vite'
 import { name } from './package.json'
+import { viteSingleFile } from "vite-plugin-singlefile"
 
 const app = async (): Promise<UserConfigExport> => {
   return defineConfig({
-    plugins: [
+    plugins: [viteSingleFile(),
       react(),
       dts({
         insertTypesEntry: true,
